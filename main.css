@@ -1,0 +1,36 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h3, h4, p {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    padding: 10px;
+    opacity: .8;
+}
+
+.box1, .box3 {
+    display: flex;
+    align-items: center;
+}
+
+.snowBox {
+    height: 100vh;
+    width: 100vw;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background: url('http://s.newsweek.com/sites/www.newsweek.com/files/2016/03/31/jon-snow-game-thrones.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
